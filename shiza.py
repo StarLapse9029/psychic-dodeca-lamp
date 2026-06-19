@@ -24,6 +24,8 @@ def rotate(string, amount):
             i += amount
             if i > 122:
                 i -= 26
+        else:
+            i = i
         new_str += chr(i)
     return new_str
 
