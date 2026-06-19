@@ -6,9 +6,8 @@ def main():
         return
 
     orig = sys.argv[1]
-    print("Original string: ")
     for i in range(26):
-        print(rotate(orig, i))
+        print(f"{i}: {rotate(orig, i)}")
 
 # A = 65 Z = 90
 # a = 97 z = 122
