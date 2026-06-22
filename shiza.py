@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# Reminder to chmod +x
 import sys
 
 def main():
